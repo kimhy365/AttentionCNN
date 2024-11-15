@@ -1,4 +1,4 @@
-# Small Object Classification Dataset for AOI Systems
+# Attention-based CNN for Small Object Classification
 
 ## 📚 Overview
 This dataset was created as part of our research on **small object classification in Automated Optical Inspection (AOI) systems**. It is publicly available to facilitate reproducibility and further advancements in the field.
