@@ -37,6 +37,6 @@ This dataset was created as part of our research. It is publicly available to fa
 If you use this dataset, please cite the following paper:
 
 > **Kim, Hyun-Yong, and Lee, Hong-ki**  
-> _An Attention-based CNN Model for Small Object Classification in Automated Optical Inspection Systems._  
+> _An Attention-based Convolutional Neural Network with Spatial Transformer Module for Automated Optical Inspection of Small Objects_  
 > IEEE Transactions on Instrumentation and Measurement, 2024.  
 > DOI: [10.xxxx/yourpaperdoi](https://doi.org/10.xxxx/yourpaperdoi)
