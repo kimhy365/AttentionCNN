@@ -1,17 +1,30 @@
 # Attention-based CNN for Small Object Classification
 
 ## 📚 Overview
-This dataset was created as part of our research on **small object classification in Automated Optical Inspection (AOI) systems**. It is publicly available to facilitate reproducibility and further advancements in the field.
+we propose an Attention-based CNN (A-CNN) model that addresses the challenges of small object classification in real-world manufacturing environments. Unlike traditional CNNs that struggle with object-to-image area ratio (OAR) constraints, our model leverages an  attention mechanism to dynamically focus on small objects, achieving superior classification accuracy and efficiency.
 
-## 📂 Dataset Contents
+Key innovations of our model include:
+
+- Integration of a spatial transformer module to adaptively extract Regions of Interest (ROI), increasing OAR by up to 10 times without manual preprocessing.
+- A multi-task learning framework that enables end-to-end training with minimal data labeling (only 5% of the dataset labeled), significantly reducing human effort and time.
+- For an edge device, NVIDIA Jetson Nano, providing real-time inference (33 fps) while maintaining high accuracy (99.92%).
+  
+These contributions ensure that our A-CNN is not only effective but also practical for deployment in resource-constrained environments, such as automated optical inspection (AOI) systems.
+
+## 📂 Architecture of the Attention-based CNN model
+This model utilizes a spatial transformer (Attention) module to sample the ROIs from the input images. The localization network predicts the center coordinates of the ROIs, and the classification network assigns class scores based on the ROIs. In the Attention module, the sizes of both the ROI and the resized ROI are hyperparameters.
+![image](https://github.com/user-attachments/assets/92532d03-2370-4742-80a9-56b42642bc15)
+
+
+## Dataset
+This dataset was created as part of our research. It is publicly available to facilitate reproducibility and further advancements in the field.
+
 - **Images**:
   - `train/`: Training images.
   - `val/`: Validation images.
   - `test/`: Test images.
 - **Labels**:
   - YOLO format labels corresponding to each image.
-- **Metadata**:
-  - A detailed description of data collection and preprocessing.
 
 ## 💡 Usage
 1. Clone this repository:
