@@ -1,5 +1,6 @@
 # Attention-based CNN for Small Object Classification
-(published ... ➡️ Paper Link)
+*(Published in IEEE Transactions on Instrumentation and Measurement)*  
+➡️ **[Read the Paper](https://doi.org/10.xxxx/yourpaperdoi)**  
 
 ## 📚 Overview
 We propose an Attention-based CNN (A-CNN) model that addresses the challenges of small object classification in real-world manufacturing environments. Unlike traditional CNNs that struggle with object-to-image area ratio (OAR) constraints, our model leverages an  attention mechanism to dynamically focus on small objects, achieving superior classification accuracy and efficiency.
@@ -14,7 +15,9 @@ These contributions ensure that our A-CNN is not only effective but also practic
 
 ## 📂 Architecture of the Attention-based CNN model
 This model utilizes a spatial transformer (Attention) module to sample the ROIs from the input images. The localization network predicts the center coordinates of the ROIs, and the classification network assigns class scores based on the ROIs. In the Attention module, the sizes of both the ROI and the resized ROI are hyperparameters.
-<p align="center"> <img src="https://github.com/user-attachments/assets/92532d03-2370-4742-80a9-56b42642bc15" alt="A-CNN Architecture" width="80%"> </p>
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/92532d03-2370-4742-80a9-56b42642bc15" alt="A-CNN Architecture" width="80%"> 
+</p>
 
 
 ## Dataset
@@ -25,7 +28,9 @@ This dataset was created as part of our research. It is publicly available to fa
   - `test/`: from device 1
 - **Labels**:
   - YOLO format labels corresponding to each image.    
-<p align="center"> <img src="https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074" alt="Dataset Example" width="80%"> </p>
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074" alt="Dataset Example" width="60%"> 
+</p>
 
 
 ## 📝 Citation
