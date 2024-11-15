@@ -25,7 +25,7 @@ This dataset was created as part of our research. It is publicly available to fa
 
 - **Images**:
   - `train data`: from device 0 
-  - `test/`: from device 1
+  - `test data`: from device 1
 - **Labels**:
   - YOLO format labels corresponding to each image.    
 <p align="center"> 
