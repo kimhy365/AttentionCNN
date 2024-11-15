@@ -28,7 +28,16 @@ This dataset was created as part of our research. It is publicly available to fa
 ![image](https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074)
 
 
-## 💡 Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/kimhy365/small-object-dataset.git
+## 📝 Citation
+If you use this dataset, please cite the following paper:
+
+@article{Kim2024,
+  title={An Attention-based CNN Model for Small Object Classification in Automated Optical Inspection Systems},
+  author={Kim, Hyun-Yong and Lee, Hong-ki},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2024},
+  volume={XX},
+  number={X},
+  pages={XXX-XXX},
+  doi={10.xxxx/yourpaperdoi}
+}
