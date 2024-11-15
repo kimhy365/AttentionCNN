@@ -20,11 +20,12 @@ This model utilizes a spatial transformer (Attention) module to sample the ROIs 
 This dataset was created as part of our research. It is publicly available to facilitate reproducibility and further advancements in the field.
 
 - **Images**:
-  - `train/`: Training images.
-  - `val/`: Validation images.
-  - `test/`: Test images.
+  - `train data`: from device 0 
+  - `test/`: from device 1
 - **Labels**:
   - YOLO format labels corresponding to each image.
+    ![image](https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074)
+
 
 ## 💡 Usage
 1. Clone this repository:
