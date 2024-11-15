@@ -1,11 +1,12 @@
 # Attention-based CNN for Small Object Classification
 
+
 ## 📚 Overview
-we propose an Attention-based CNN (A-CNN) model that addresses the challenges of small object classification in real-world manufacturing environments. Unlike traditional CNNs that struggle with object-to-image area ratio (OAR) constraints, our model leverages an  attention mechanism to dynamically focus on small objects, achieving superior classification accuracy and efficiency.
+We propose an Attention-based CNN (A-CNN) model that addresses the challenges of small object classification in real-world manufacturing environments. Unlike traditional CNNs that struggle with object-to-image area ratio (OAR) constraints, our model leverages an  attention mechanism to dynamically focus on small objects, achieving superior classification accuracy and efficiency.
 
 Key innovations of our model include:
 
-- Integration of a spatial transformer module to adaptively extract Regions of Interest (ROI), increasing OAR by up to 10 times without manual preprocessing.
+- Integration of a spatial transformer module to adaptively extract Regions of Interest (ROI), increasing OAR without manual preprocessing.
 - A multi-task learning framework that enables end-to-end training with minimal data labeling (only 5% of the dataset labeled), significantly reducing human effort and time.
 - For an edge device, NVIDIA Jetson Nano, providing real-time inference (33 fps) while maintaining high accuracy (99.92%).
   
@@ -23,8 +24,8 @@ This dataset was created as part of our research. It is publicly available to fa
   - `train data`: from device 0 
   - `test/`: from device 1
 - **Labels**:
-  - YOLO format labels corresponding to each image.
-    ![image](https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074)
+  - YOLO format labels corresponding to each image.    
+![image](https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074)
 
 
 ## 💡 Usage
