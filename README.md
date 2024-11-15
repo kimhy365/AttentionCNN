@@ -7,7 +7,7 @@ We propose an Attention-based CNN (A-CNN) model that addresses the challenges of
 
 Key innovations of our model include:
 
-- Integration of a spatial transformer module to adaptively extract Regions of Interest (ROI), increasing OAR without manual preprocessing.
+- Integration of an Attention module to adaptively extract Regions of Interest (ROI), increasing OAR without manual preprocessing.
 - A multi-task learning framework that enables end-to-end training with minimal data labeling (only 5% of the dataset labeled), significantly reducing human effort and time.
 - For an edge device, NVIDIA Jetson Nano, providing real-time inference (33 fps) while maintaining high accuracy (99.92%).
   
