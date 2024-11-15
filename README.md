@@ -1,5 +1,5 @@
 # Attention-based CNN for Small Object Classification
-
+(published ... ➡️ Paper Link)
 
 ## 📚 Overview
 We propose an Attention-based CNN (A-CNN) model that addresses the challenges of small object classification in real-world manufacturing environments. Unlike traditional CNNs that struggle with object-to-image area ratio (OAR) constraints, our model leverages an  attention mechanism to dynamically focus on small objects, achieving superior classification accuracy and efficiency.
