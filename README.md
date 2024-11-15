@@ -32,6 +32,28 @@ This dataset was created as part of our research. It is publicly available to fa
   <img src="https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074" alt="Dataset Example" width="60%"> 
 </p>
 
+## 📄 **Citation**
+
+If you use this dataset, please cite the following paper:
+
+> **Kim, Hyun-Yong, and Lee, Hong-ki**  
+> _An Attention-based CNN Model for Small Object Classification in Automated Optical Inspection Systems._  
+> IEEE Transactions on Instrumentation and Measurement, 2024.  
+> DOI: [10.xxxx/yourpaperdoi](https://doi.org/10.xxxx/yourpaperdoi)
+
+### BibTeX Format:
+```bibtex
+@article{Kim2024,
+  title={An Attention-based CNN Model for Small Object Classification in Automated Optical Inspection Systems},
+  author={Kim, Hyun-Yong and Lee, Hong-ki},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2024},
+  volume={XX},
+  number={X},
+  pages={XXX-XXX},
+  doi={10.xxxx/yourpaperdoi}
+}
+
 
 ## 📝 Citation
 If you use this dataset, please cite the following paper:
