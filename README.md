@@ -14,7 +14,7 @@ These contributions ensure that our A-CNN is not only effective but also practic
 
 ## 📂 Architecture of the Attention-based CNN model
 This model utilizes a spatial transformer (Attention) module to sample the ROIs from the input images. The localization network predicts the center coordinates of the ROIs, and the classification network assigns class scores based on the ROIs. In the Attention module, the sizes of both the ROI and the resized ROI are hyperparameters.
-![image](https://github.com/user-attachments/assets/92532d03-2370-4742-80a9-56b42642bc15)
+<p align="center"> <img src="https://github.com/user-attachments/assets/92532d03-2370-4742-80a9-56b42642bc15" alt="A-CNN Architecture" width="80%"> </p>
 
 
 ## Dataset
@@ -25,7 +25,7 @@ This dataset was created as part of our research. It is publicly available to fa
   - `test/`: from device 1
 - **Labels**:
   - YOLO format labels corresponding to each image.    
-![image](https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074)
+<p align="center"> <img src="https://github.com/user-attachments/assets/330c10ba-4341-4730-98d3-066826c86074" alt="Dataset Example" width="80%"> </p>
 
 
 ## 📝 Citation
