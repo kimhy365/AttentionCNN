@@ -1,5 +1,5 @@
 # Attention-based CNN for Small Object Classification
-*(Published in IEEE Transactions on Instrumentation and Measurement)*  
+*(Submitted in IEEE Transactions on Instrumentation and Measurement)*  
 ➡️ **[Read the Paper](https://doi.org/10.xxxx/yourpaperdoi)**  
 
 ## 📚 Overview
@@ -36,7 +36,7 @@ This dataset was created as part of our research. It is publicly available to fa
 
 If you use this dataset, please cite the following paper:
 
-> **Kim, Hyun-Yong, and Lee, Hong-ki**  
+> **Hyun-Yong Kim, Taek-Joon Yi, and Jong-Yun Lee**  
 > _An Attention-based Convolutional Neural Network with Spatial Transformer Module for Automated Optical Inspection of Small Objects_  
 > IEEE Transactions on Instrumentation and Measurement, 2024.  
 > DOI: [10.xxxx/yourpaperdoi](https://doi.org/10.xxxx/yourpaperdoi)
