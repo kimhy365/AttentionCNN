@@ -24,7 +24,7 @@ This model utilizes a spatial transformer (Attention) module to sample the ROIs 
 
 ## Dataset
 This dataset was created as part of our research. It is publicly available to facilitate reproducibility and further advancements in the field. <br>
-➡️ <a href="[https://drive.google.com/file/d/1-mJ-XuLnGw-MKrtD-E1y6Tp2aSlG_G97/view?usp=sharing](https://drive.google.com/file/d/1-mJ-XuLnGw-MKrtD-E1y6Tp2aSlG_G97/view?usp=sharing)" target="_blank">download dataset</a>
+➡️ <a href="https://drive.google.com/file/d/1-mJ-XuLnGw-MKrtD-E1y6Tp2aSlG_G97/view?usp=sharing" target="_blank">download dataset</a>
 
 - **Images**:
   - `train data`: from device 0 
