@@ -41,5 +41,5 @@ If you use this dataset, please cite the following paper:
 
 > **Hyun-Yong Kim, Taek-Joon Yi, and Jong-Yun Lee**  
 > _An Attention-based Convolutional Neural Network with Spatial Transformer Module for Automated Optical Inspection of Small Objects_  
-> IEEE Transactions on Instrumentation and Measurement, 2024.  
+> IEEE Transactions on Instrumentation and Measurement, 2025.  
 > DOI: [10.xxxx/yourpaperdoi](https://doi.org/10.xxxx/yourpaperdoi)
