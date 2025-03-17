@@ -36,7 +36,7 @@ This dataset was created as part of our research. It is publicly available to fa
 </p>
 
 ## Performance (updated after the paper publication)
-The A-CNN model can be effectively trained end-to-end with minimal data labeling compared to object detection methods. Experimental results show that the proposed A-CNN model achieves a classification accuracy of 99.92% and an inference speed of 62.9 fps on the NVIDIA Jetson Nano platform, outperforming the smallest models of YOLOv5, YOLOv7, YOLOv8, YOLOv9 and YOLOv10, state-ofthe-art object detection algorithms, in terms of both accuracy and latency. Notably, our model has 3.8× faster than the fastest YOLO model, underscoring its efficiency in real-time applications. These findings highlight the potential of the A-CNN model as an accurate and practical solution for small object classification.
+The A-CNN model can be effectively trained end-to-end with minimal data labeling compared to object detection methods. Experimental results show that the proposed A-CNN model achieves a classification accuracy of **99.92%** and an inference speed of **62.9 fps** on the NVIDIA Jetson Nano platform, outperforming the smallest models of YOLOv5, YOLOv7, YOLOv8, YOLOv9 and YOLOv10, state-ofthe-art object detection algorithms, in terms of both accuracy and latency. Notably, our model has 3.8× faster than the fastest YOLO model, underscoring its efficiency in real-time applications. These findings highlight the potential of the A-CNN model as an accurate and practical solution for small object classification.
 
 **Comparison of the A-CNN with YOLO Object Detection Models**
 
@@ -62,9 +62,9 @@ The A-CNN model can be effectively trained end-to-end with minimal data labeling
 | A-CNN (opt)      | 0.68  | 0.38 | 640×480 | **99.92** | 15.9 (6.6) |
 
 **Notes:**
-- <sup>f</sup> FLOPs in the forward process of model, excluding the **pre- and post-processing** for YOLO models.
-- <sup>a</sup> End-to-end inference time measured on the **NVIDIA Jetson Nano**, including the pre- and post-processing.  
-  Values in parentheses indicate inference time using **TensorRT with FP32 precision**.
+- <sup>f</sup> FLOPs in the forward process of model, excluding the pre- and post-processing for YOLO models.
+- <sup>a</sup> End-to-end inference time measured on the NVIDIA Jetson Nano, including the pre- and post-processing.  
+  Values in parentheses indicate inference time using TensorRT with FP32 precision.
 
 
 ## 📄 **Citation**
