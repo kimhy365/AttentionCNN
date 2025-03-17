@@ -38,14 +38,16 @@ This dataset was created as part of our research. It is publicly available to fa
 ## Performance (updated after the paper publication)
 The A-CNN model can be effectively trained end-to-end with minimal data labeling compared to object detection methods. Experimental results show that the proposed A-CNN model achieves a classification accuracy of 99.92% and an inference speed of 62.9 fps on the NVIDIA Jetson Nano platform, outperforming the smallest models of YOLOv5, YOLOv7, YOLOv8, YOLOv9 and YOLOv10, state-ofthe-art object detection algorithms, in terms of both accuracy and latency. Notably, our model has 3.8× faster than the fastest YOLO model, underscoring its efficiency in real-time applications. These findings highlight the potential of the A-CNN model as an accurate and practical solution for small object classification.
 
-### Table IV: Comparison of the A-CNN with YOLO Object Detection Models
+Comparison of the A-CNN with YOLO Object Detection Models
 
 | Model            | Params (M) | FLOPs^f^ (G) | Input (resized) | Accuracy (%) | Latency^a^ (ms) |
 |-----------------|------------|--------------|-----------------|--------------|----------------|
-| YOLOv5-Nano     |            | **1.55** | 640x480 | 99.67 | 61       
-|                 |**1.76**    | **0.67** | 416x312 | 97.92 | 61 |
-|                 | **0.22**   | **0.22** | 224x168 | 82.83 | 55 |
-| YOLOv7-Tiny [19] | **0.62**  | **2.15** | 416x320 | 99.82 | 43 |
+| YOLOv5-Nano     | **1.76**   | **1.55** | 640x480 | 99.67 | 61 |     
+|                 |            | **0.67** | 416x312 | 97.92 | 61 |
+|                 |            | **0.22** | 224x168 | 82.83 | 55 |
+| YOLOv7-Tiny     | 6.02       | 4.95     | 640x480 | **99.83** | 135 |
+|                 |            | 2.15     | 416x312 | 98.42 | 135 |
+|                 |            | 0.69     | 224x168 |**95.33** | 130 |
 | YOLOv8-Nano [52] | **3.01**  | **0.64** | 640x480 | 98.95 | 72 |
 |                 | **0.43**   | **0.43** | 224x192 | 98.79 | 44 |
 | YOLOv9-Tiny [20] | **2.01**  | **2.94** | 416x320 | 99.08 | 48 |
