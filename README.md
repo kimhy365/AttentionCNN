@@ -1,5 +1,5 @@
 # Attention-based CNN for Small Object Classification
-*(Submitted in IEEE Transactions on Instrumentation and Measurement)*  
+*(Published in IEEE Transactions on Instrumentation and Measurement)*  
 ➡️ **[Read the Paper](https://doi.org/10.1109/TIM.2025.3548240)**  
 
 
