@@ -40,8 +40,8 @@ The A-CNN model can be effectively trained end-to-end with minimal data labeling
 
 **Comparison of the A-CNN with YOLO Object Detection Models**
 
-| Model            | Params (M) | FLOPs<sup>f</sup> (G) | Input (resized) | Accuracy (%) | Latency^a^ (ms) |
-|:-----------------|:------------|:--------------|:-----------------|:--------------|:----------------|
+| Model            | Params (M) | FLOPs<sup>f</sup> (G) | Input (resized) | Accuracy (%) | Latency<sup>a</sup> (ms) |
+|:----------------:|:------------:|:--------------:|:-----------------:|:--------------:|:----------------:|
 | YOLOv5-Nano     | **1.76**   | **1.55** | 640×480 | 99.67 | **61** |     
 |                 |            | **0.67** | 416×312 | 97.92 | 61 |
 |                 |            | **0.22** | 224×168 | 82.83 | 55 |
@@ -62,8 +62,8 @@ The A-CNN model can be effectively trained end-to-end with minimal data labeling
 | A-CNN (opt)      | 0.68  | 0.38 | 640×480 | **99.92** | 15.9 (6.6) |
 
 **Notes:**
-- ^f^ FLOPs in the forward process of model, excluding the **pre- and post-processing** for YOLO models.
-- ^a^ End-to-end inference time measured on the **NVIDIA Jetson Nano**, including the pre- and post-processing.  
+- <sup>f</sup> FLOPs in the forward process of model, excluding the **pre- and post-processing** for YOLO models.
+- <sup>a</sup> End-to-end inference time measured on the **NVIDIA Jetson Nano**, including the pre- and post-processing.  
   Values in parentheses indicate inference time using **TensorRT with FP32 precision**.
 
 
