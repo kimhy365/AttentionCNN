@@ -63,8 +63,8 @@ The A-CNN model can be effectively trained end-to-end with minimal data labeling
 
 **Notes:**
 - <sup>f</sup> FLOPs in the forward process of model, excluding the pre- and post-processing for YOLO models.
-- <sup>a</sup> End-to-end inference time measured on the NVIDIA Jetson Nano, including the pre- and post-processing.  
-  Values in parentheses indicate inference time using TensorRT with FP32 precision.
+- <sup>a</sup> End-to-end inference time measured on the **NVIDIA Jetson Nano**, including the pre- and post-processing.  
+  Values in parentheses indicate inference time using **TensorRT with FP32 precision**.
 
 
 ## 📄 **Citation**
