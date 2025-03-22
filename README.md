@@ -36,7 +36,7 @@ This dataset was created as part of our research. It is publicly available to fa
 </p>
 
 ## Performance (updated after the paper publication)
-The A-CNN model can be effectively trained end-to-end with minimal data labeling compared to object detection methods. Experimental results show that the proposed A-CNN model achieves a classification accuracy of **99.92%** and an inference speed of **62.9 fps** on the NVIDIA Jetson Nano platform, outperforming the smallest models of YOLOv5, YOLOv7, YOLOv8, YOLOv9 and YOLOv10, state-ofthe-art object detection algorithms, in terms of both accuracy and latency. Notably, our model has 3.8× faster than the fastest YOLO model, underscoring its efficiency in real-time applications. These findings highlight the potential of the A-CNN model as an accurate and practical solution for small object classification.
+The A-CNN model can be effectively trained end-to-end with minimal data labeling compared to object detection methods. Experimental results show that the proposed A-CNN model achieves a classification accuracy of **99.92%** and an inference speed of **62.9 fps** on the NVIDIA Jetson Nano platform, outperforming the smallest models of YOLOv5, YOLOv7, YOLOv8, YOLOv9 and YOLOv10, state-of-the-art object detection algorithms, in terms of both accuracy and latency. Notably, our model has 3.8× faster than the fastest YOLO model, underscoring its efficiency in real-time applications. These findings highlight the potential of the A-CNN model as an accurate and practical solution for small object classification.
 
 **Comparison of the A-CNN with YOLO Object Detection Models**
 
