@@ -10,7 +10,7 @@ Key innovations of our model include:
 
 - Integration of an Attention module to adaptively extract Regions of Interest (ROI), increasing OAR without manual preprocessing.
 - A multi-task learning framework that enables end-to-end training with minimal data labeling (only 5% of the dataset labeled), significantly reducing human effort and time.
-- For an edge device, NVIDIA Jetson Nano, providing real-time inference (33 fps) while maintaining high accuracy (99.92%).
+- For an edge device, NVIDIA Jetson Nano, providing real-time inference (67.1 fps) while maintaining high accuracy (99.92%).
   
 These contributions ensure that our A-CNN is not only effective but also practical for deployment in resource-constrained environments, such as automated optical inspection (AOI) systems.
 
