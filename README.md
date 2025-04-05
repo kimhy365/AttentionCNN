@@ -1,7 +1,7 @@
 # Attention-based CNN for Small Object Classification
 * Published in IEEE Transactions on Instrumentation and Measurement on March 5th, 2025. <br>
-➡️ **[Read the Paper via IEEE](https://doi.org/10.1109/TIM.2025.3548240)** <br>
-➡️ **<a href="https://drive.google.com/file/d/1Sd6pG3sAqparhOF8mNqujJR55c9HIqKY/view?usp=sharing" target="_blank">Download the paper(pdf)</a>**
+➡️ **[Read the paper on IEEE Xplore](https://doi.org/10.1109/TIM.2025.3548240)** <br>
+➡️ **<a href="https://drive.google.com/file/d/1Sd6pG3sAqparhOF8mNqujJR55c9HIqKY/view?usp=sharing" target="_blank">Download the paper (PDF)</a>**
 
 
 ## 📚 Overview
