@@ -2,7 +2,7 @@
 * Published in IEEE Transactions on Instrumentation and Measurement on March 5th, 2025. <br>
 ➡️ **[Read the paper on IEEE Xplore](https://doi.org/10.1109/TIM.2025.3548240)** <br>
 ➡️ **<a href="https://drive.google.com/file/d/1Sd6pG3sAqparhOF8mNqujJR55c9HIqKY/view?usp=sharing" target="_blank">View the paper (PDF)</a>** <br>
-➡️ <a href="https://docs.pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html" target="_blank">Spatial Transformer Networks Tutorial</a>
+➡️ <a href="https://docs.pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html" target="_blank">Spatial Transformer Networks PyTorch Tutorial</a>
 
 
 
