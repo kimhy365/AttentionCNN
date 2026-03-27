@@ -60,14 +60,14 @@ The A-CNN model can be effectively trained end-to-end with minimal data labeling
 | YOLOv10-Nano    | 2.71       | 3.15     | 640×480 | 99.75 | 84 |
 |                 |            |1.36    | 416×312 | 99.33 | 59 |
 |                 |            | 0.44     | 224×168 | 75.08 | 57 |
-| A-CNN (base)     | 0.71  | 2.22 | 640×480 | 99.75 | **14.9 (6.2)** |
-| A-CNN (best)     | 0.70  | 1.00 | 640×480 | 99.82 | 15.5 (6.3) |
-| A-CNN (opt)      | 0.68  | 0.38 | 640×480 | **99.92** | 15.9 (6.6) |
+| A-CNN (base)     | 0.71  | 2.22 | 640×480 | 99.75 | **64.1 (30.9)** |
+| A-CNN (best)     | 0.70  | 1.00 | 640×480 | 99.92 | 39.5 (17.7) |
+| A-CNN (opt)      | 0.68  | 0.38 | 640×480 | **99.92** | 38.2 (19.3) |
 
 **Notes:**
 - <sup>f</sup> FLOPs in the forward process of model, excluding the pre- and post-processing for YOLO models.
 - <sup>a</sup> End-to-end inference time measured on the **NVIDIA Jetson Nano**, including the pre- and post-processing.  
-  Values in parentheses indicate inference time using **TensorRT with FP32 precision**.
+  Values in parentheses indicate inference time using **TensorRT with FP16 precision**.
 
 
 ## 📄 **Citation**
